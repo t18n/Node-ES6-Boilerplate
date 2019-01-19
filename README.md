@@ -5,3 +5,10 @@ cd node-babel-starter
 yarn
 yarn start
 ```
+
+# Features
+1. Node cluster
+2. Http server
+3. Html templates
+4. Prettier
+5. ES6
