@@ -10,7 +10,7 @@
     "build": "yarn build-clean && yarn babel-build",
     "heroku-build": "yarn build",
     "prestart": "pwd && ls -la",
-    "start": "node ./build/index.js"
+    "start": "node build/index.js"
   },
   "author": "Turbo",
   "license": "MIT",
