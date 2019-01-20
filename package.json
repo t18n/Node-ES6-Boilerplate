@@ -9,7 +9,7 @@
     "babel-build": "babel src -d build --copy-files",
     "build": "yarn build-clean && yarn babel-build",
     "heroku-prebuild": "yarn",
-    "start": "node build/index.js"
+    "start": "node ./build/index.js"
   },
   "author": "Turbo",
   "license": "MIT",
