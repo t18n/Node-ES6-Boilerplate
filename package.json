@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js",
     "build-clean": "rm -rf build",
     "babel-build": "babel src -d build --copy-files",
     "build": "yarn build-clean && yarn babel-build",
-    "serve": "node build/index.js"
+    "heroku-prebuild": "yarn",
+    "start": "node build/index.js"
   },
   "author": "Turbo",
   "license": "MIT",
