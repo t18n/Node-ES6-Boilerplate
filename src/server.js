@@ -23,12 +23,12 @@ http.createServer((req, res) => {
   const url = req.url;
 
   // Home page
-  if (url === '/') sendTemplate(res, '/templates/index.html');
+  if (url === '/') sendTemplate(res, '/templates/index.ejs');
 
   // About page
-  else if (url === '/about') sendTemplate(res, '/templates/about.html');
+  else if (url === '/about') sendTemplate(res, '/templates/about.ejs');
 
   // Otherwise 404 page
-  else sendTemplate(res, '/templates/404.html');
+  else sendTemplate(res, '/templates/404.ejs');
 
 }).listen(PORT);

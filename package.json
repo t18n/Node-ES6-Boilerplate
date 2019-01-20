@@ -7,7 +7,8 @@
     "start": "nodemon --exec babel-node src/index.js",
     "build-clean": "rm -rf build",
     "babel-build": "babel src -d build --copy-files",
-    "build": "yarn build-clean && yarn babel-build"
+    "build": "yarn build-clean && yarn babel-build",
+    "serve": "node build/index.js"
   },
   "author": "Turbo",
   "license": "MIT",
@@ -22,5 +23,8 @@
   "dependencies": {
     "dotenv": "^6.1.0",
     "winston": "^3.1.0"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
