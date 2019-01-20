@@ -7,9 +7,9 @@ yarn start
 ```
 
 # Features
-1. Node cluster
-2. Http server
-3. Html templates
-4. Prettier
-5. ES6
-6. Path resolver. (E.g., `src/utils/console` instead of `../../src/utils/console`)
+1. Node cluster to utilize all CPUs
+2. ES6 with Babel
+3. HTTP server
+5. Path resolver. (E.g., `src/utils/console` instead of `../../src/utils/console`)
+6. Prettier
+7. Logging system with `Winston`
