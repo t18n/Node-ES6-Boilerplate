@@ -8,7 +8,8 @@
     "build-clean": "rm -rf build",
     "babel-build": "babel src -d build --copy-files",
     "build": "yarn build-clean && yarn babel-build",
-    "start": "yarn build && node build/index.js"
+    "postinstall": "yarn build",
+    "start": "node build/index.js"
   },
   "author": "Turbo",
   "license": "MIT",
