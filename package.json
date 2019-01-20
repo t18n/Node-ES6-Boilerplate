@@ -8,9 +8,7 @@
     "build-clean": "rm -rf build",
     "babel-build": "babel src -d build --copy-files",
     "build": "yarn build-clean && yarn babel-build",
-    "heroku-build": "yarn build",
-    "prestart": "pwd && ls -la",
-    "start": "node build/index.js"
+    "start": "yarn build && node build/index.js"
   },
   "author": "Turbo",
   "license": "MIT",
