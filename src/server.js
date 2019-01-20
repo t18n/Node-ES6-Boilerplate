@@ -1,7 +1,6 @@
 import http from 'http';
 import fs from 'fs';
 import path from 'path';
-import chalk from 'chalk';
 import dotenv from 'dotenv';
 
 dotenv.config();

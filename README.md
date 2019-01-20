@@ -12,3 +12,4 @@ yarn start
 3. Html templates
 4. Prettier
 5. ES6
+6. Path resolver. (E.g., `src/utils/console` instead of `../../src/utils/console`)
